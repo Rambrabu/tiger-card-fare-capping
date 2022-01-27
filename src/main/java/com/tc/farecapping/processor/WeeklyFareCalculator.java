@@ -61,7 +61,7 @@ public class WeeklyFareCalculator implements FareCalculator<Double> {
 
 	}
 
-	public static int getWeekOfYear(LocalDate localDate) {
+	private static int getWeekOfYear(LocalDate localDate) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setFirstDayOfWeek(Calendar.MONDAY);
 		calendar.set(localDate.getYear(), localDate.getMonthValue() - 1, localDate.getDayOfMonth());
