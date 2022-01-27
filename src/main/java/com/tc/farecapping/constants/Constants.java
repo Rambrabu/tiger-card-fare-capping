@@ -19,9 +19,11 @@ public class Constants {
 	
 	public static final String NO_JOURNEYS_FOUND = "No Journeys to process";
 	
+	public static final String NO_RESULT_FROM_DAILY_CALCULATOR = "Failed due to improoer result during Daily Fare Calculation";
+	
 	public static final String WEEKLY_CALCULATOR_FAILED_MSG = "Weekly Fare Calculation process failed";
 	
-	public static final String DAILY_CALCULATOR_FAILED_MSG = "Weekly Fare Calculation process failed";
+	public static final String DAILY_CALCULATOR_FAILED_MSG = "Daily Fare Calculation process failed";
 	
 	public static final String DATE_FORMATTER = "dd/MM/yyyy";
 	
